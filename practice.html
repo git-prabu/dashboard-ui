@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="dashboard for practice" name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Watcher</title>
+        <link rel="stylesheet" href="dashboard.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="top_search">
+              <input type="text" class="top_search-bar" placeholder="Search...">
+              <img src="ASSERTS\header\search-svgrepo-com.svg" alt="search icon" class="search-icon">
+            </div>
+            <div class="profile-icons">
+                <img src="ASSERTS\header\settings.png" alt="settings-icon" class="icons">
+                <img src="ASSERTS\header\bell.png" alt="settings-icon" class="icons">
+                <img src="ASSERTS\profiles\per 1.jpg" alt="settings-icon" class="p-icon">
+            </div>
+        </header>
+        <nav>
+            <div class="nav-all">
+                <div class="page-heading">
+                    <img class="page-icon" src="ASSERTS\side bar\IMG_8948.PNG" alt="page icon">
+                    <h1 class="page-title">CodeWithPrabu</h1>
+                </div>
+                <hr class="nav-hr">
+                <div class="page-menu">
+                    <div class="main-menu">
+                        <p>MAIN MENU</p>
+                    </div>
+                    <div class="main-menu-contents">
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\home-svgrepo-com.svg" alt="icon">
+                            <p>Dashboard</p>
+                        </div>
+                        <a href="#projects"><div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\project-diagram-solid-svgrepo-com.svg" alt="icon">
+                            <p>Projects</p>
+                        </div></a>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\calender-svgrepo-com.svg" alt="icon">
+                            <p>Calendar</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\team-svgrepo-com.svg" alt="icon">
+                            <p>Team</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\chart-pie-svgrepo-com.svg" alt="icon">
+                            <p>Reports</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\header\settings.png" alt="icon">
+                            <p>Settings</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-team">
+                    <div class="nav-team-members">
+                        <p>TEAM MEMBERS</p>
+                    </div>
+                    <div class="nav-team-names">
+                        <div class="nav-team-name">
+                            <img class="nav-team-image" src="ASSERTS\profiles\per 1.jpg" alt="img">
+                            <p>Prabu</p>
+                        </div>
+                        <div class="nav-team-name">
+                            <img class="nav-team-image" src="ASSERTS\profiles\per 2.avif" alt="img">
+                            <p>karthi kayan</p>
+                        </div>
+                        <div class="nav-team-name">
+                            <img class="nav-team-image" src="ASSERTS\profiles\per 3.jpg" alt="img">
+                            <p>Daya Nidhi</p>
+                        </div>
+                        <div class="nav-team-name">
+                            <img class="nav-team-image" src="ASSERTS\profiles\per 5.jpg" alt="img">
+                            <p>Hari prashath</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="quick_view">
+                <div class="quick_welcome">
+                    <div class="welcome">
+                      <h1>Welcome back, Prabu!</h1>
+                    </div>
+                    <div class="welcome-2">
+                      <p>You have 3 ongoing projects. 2 deadlines are approching this week.</p>
+                    </div>
+                    <div class="welcome-3">
+                        <button>Create New Project</button>
+                    </div>
+                </div>
+                <div class="quick_profile">
+                    <div class="quick_profile-image">
+                        <img class="profile-image" src="ASSERTS\profiles\per 1.jpg" alt="profile-image">
+                    </div>
+                    <p class="profile-name">Prabu</p>      
+                    <p class="profile-role">Software Architect</p>
+                    <div class="profile_progress">
+                        <img src="ASSERTS\on page\icons8-round.svg">
+                        <div class="progress-percentage">
+                            <p>98%</p>
+                        </div>
+                    </div>
+                    <div id="projects" class="profile_stats">
+                        <div class="stats-a">
+                            <h2>12</h2>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stats-b">
+                            <h2>24</h2>
+                            <p>Task</p>
+                        </div>
+                        <div class="stats-c">
+                            <h2>89%</h2>
+                            <p>Success</p>
+                        </div>
+                    </div>
+                </div>
+                    <div >
+                        <div class="ongoing_projects">
+                        <h2>Ongoing Project</h2>
+                        <a href="#"><p>View All<img class="arrow" src="ASSERTS\on page\chevron.png"></p></a>
+                    </div>
+                    <div class="project-1">
+                        <div class="project-1-name">
+                            <div class="color-icons-name">
+                              <div class="color-icons"></div>
+                              <h3>Mobile App Development</h3> 
+                            </div>
+                            <p class="weeks"><img src="ASSERTS\on page\clock-0300-svgrepo-com.png" class="weeks-icon">8 Weeks</p>
+                        </div>
+                        <div class="project-dep">
+                            <p class="project-1-dep">Development</p>
+                            <p></p>
+                        </div>
+                        <div class="project-1-progress">
+                            <p>Project Progress</p>
+                            <p>45%</p>
+                        </div>
+                        <div class="project-progress-bar">
+                            <div class="project-progress-bar-image"></div>
+                        </div>
+                        <div class="project-1-members">
+                            <div class="project-members-images">
+                                <img class="project-members-image-1" src="ASSERTS\profiles\per 3.jpg" alt="mem">
+                                <img class="project-members-image-2" src="ASSERTS\profiles\per 1.jpg" alt="mem">
+                                <img class="project-members-image-3" src="ASSERTS\profiles\per 5.jpg" alt="mem">
+                            </div>
+                            <p class="days"><img src="ASSERTS\on page\calender-svgrepo-com.svg" class="days-icon">24 days left</p>
+                        </div>
+                    </div>
+                    <div class="project-2">
+                        <div class="project-1-name">
+                            <div class="color-icons-name">
+                              <div class="color-icons"></div>
+                              <h3>Mobile App Development</h3> 
+                            </div>
+                                <p class="weeks"><img src="ASSERTS\on page\clock-0300-svgrepo-com.png" class="weeks-icon">8 Weeks</p>
+                        </div>
+                        <div class="project-dep">
+                            <p class="project-1-dep">Development</p>
+                            <p></p>
+                        </div>
+                        <div class="project-1-progress">
+                            <p>Project Progress</p>
+                            <p>45%</p>
+                        </div>
+                        <div class="project-progress-bar">
+                            <div class="project-progress-bar-image"></div>
+                        </div>
+                        <div class="project-1-members">
+                            <div class="project-members-images">
+                                <img class="project-members-image-1" src="ASSERTS\profiles\per 3.jpg" alt="mem">
+                                <img class="project-members-image-2" src="ASSERTS\profiles\per 1.jpg" alt="mem">
+                                <img class="project-members-image-3" src="ASSERTS\profiles\per 5.jpg" alt="mem">
+                            </div>
+                            <p class="days"><img src="ASSERTS\on page\calender-svgrepo-com.svg" class="days-icon">24 days left</p>
+                        </div>
+                    </div>
+                    <div class="project-3">
+                        <div class="project-1-name">
+                            <div class="color-icons-name">
+                              <div class="color-icons"></div>
+                              <h3>Mobile App Development</h3> 
+                            </div>
+                                <p class="weeks"><img src="ASSERTS\on page\clock-0300-svgrepo-com.png" class="weeks-icon">8 Weeks</p>
+                        </div>
+                        <div class="project-dep">
+                            <p class="project-1-dep">Development</p>
+                            <p></p>
+                        </div>
+                        <div class="project-1-progress">
+                            <p>Project Progress</p>
+                            <p>45%</p>
+                        </div>
+                        <div class="project-progress-bar">
+                            <div class="project-progress-bar-image"></div>
+                        </div>
+                        <div class="project-1-members">
+                            <div class="project-members-images">
+                                <img class="project-members-image-1" src="ASSERTS\profiles\per 3.jpg" alt="mem">
+                                <img class="project-members-image-2" src="ASSERTS\profiles\per 1.jpg" alt="mem">
+                                <img class="project-members-image-3" src="ASSERTS\profiles\per 5.jpg" alt="mem">
+                            </div>
+                            <p class="days"><img src="ASSERTS\on page\calender-svgrepo-com.svg" class="days-icon">24 days left</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div>
+                    <h2 class="project_statistics">Project Statistics</h2>
+                    <div class="stats">
+                        <div class="stats-1">
+                            <div class="stats-1-icon-space">
+                                <img src="ASSERTS\on page\checklist-svgrepo-com.svg" class="stats-1-icon">
+                            </div>
+                            <h2>12</h2>
+                            <p>Total Projects</p>
+                        </div>
+                        <div class="stats-2">
+                            <div class="stats-2-icon-space">
+                                <img src="ASSERTS\on page\loading-2-svgrepo-com.svg" class="stats-1-icon">
+                            </div>
+                            <h2>5</h2>
+                            <p>In Progress</p>
+                        </div>
+                        <div class="stats-3">
+                            <div class="stats-3-icon-space">
+                                <img src="ASSERTS\on page\tick-svgrepo-com.svg" class="stats-1-icon">
+                            </div>
+                            <h2>7</h2>
+                            <p>Completed</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="timeline">
+                <div class="timeline-box">
+                    <div class="timeline-heading">
+                        <h2 class="timeline-heading-name">Task Distribution Timeline</h2>
+                        <a href="#"><p class="timeline-heading-link">View Full Timeline<img class="arrow" src="ASSERTS\on page\chevron.png"></p></a>
+                    </div>
+                    <div class="timeline_weeks">
+                        <div class="monday">
+                            <p>Mon</p>
+                            <div class="weekly-tasks">
+                                <p class="monday-task-1"></p>
+                                <p class="monday-task-2">Client meeting</p>
+                                <p class="monday-task-3">Deploying</p>
+                                <p class="monday-task-4"></p>
+                                <p class="monday-task-5">Bug Fixing</p>
+                            </div>
+                        </div>
+                        <div class="Tuesday">
+                            <p>Tue</p>
+                            <div class="weekly-tasks">
+                                <p class="Tuesday-task-1">Design Review</p>
+                                <p class="Tuesday-task-2">Design Review</p>
+                                <p class="Tuesday-task-3">Design Review</p>
+                                <p class="Tuesday-task-4">Design Review</p>
+                                <p class="Tuesday-task-5">Bug Fixing</p>
+                            </div>
+                        </div>
+                        <div class="Wednesday">
+                            <p>Wed</p>
+                            <div class="weekly-tasks">
+                                <p class="Wednesday-task-1">Design Review</p>
+                                <p class="Wednesday-task-2">Design Review</p>
+                                <p class="Wednesday-task-3">Design Review</p>
+                                <p class="Wednesday-task-4">Design Review</p>
+                                <p class="Wednesday-task-5">Bug Fixing</p>
+                            </div>
+                        </div>
+                        <div class="Thursday">
+                            <p>Thu</p>
+                            <div class="weekly-tasks">
+                                <p class="Thursday-task-1">Design Review</p>
+                                <p class="Thursday-task-2">Design Review</p>
+                                <p class="Thursday-task-3">Design Review</p>
+                                <p class="Thursday-task-4">Bug Fixing</p>
+                                <p class="Thursday-task-5">Design Review</p>
+                            </div>
+                        </div>
+                        <div class="Friday">
+                            <p>Fri</p>
+                            <div class="weekly-tasks">
+                                <p class="Friday-task-1">Design Review</p>
+                                <p class="Friday-task-2">Design Review</p>
+                                <p class="Friday-task-3">Design Review</p>
+                                <p class="Friday-task-4">Bug Fixing</p>
+                                <p class="Friday-task-5">Design Review</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-names">
+                        <div class="timeline-name-1">
+                            <hr>
+                            <p>Prabu</p>
+                            <hr>
+                        </div>
+                        <div class="timeline-name-1">
+                            <p>karthi</p>
+                            <hr>
+                        </div>
+                        <div class="timeline-name-1">
+                            <p>Daya</p>
+                            <hr>
+                        </div>
+                        <div class="timeline-name-1">
+                            <p>Hari</p>
+                            <hr>
+                        </div>
+                        <div class="timeline-name-1">           
+                            <p>karthi</p>
+                            <hr>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+            <section class="team">
+                <div class="team_title">
+                    <h2>Team Members</h2>
+                    <a href="#"><p>view all<img class="arrow" src="ASSERTS\on page\chevron.png"></p></a>
+                </div>
+                <div class="team_members">
+                    <div class="members">
+                        <div class="members-box">
+                            <div class="team-image-box">
+                                <img class="team-image" src="ASSERTS\profiles\per 1.jpg" alt="profiles">
+                            </div>
+                            <div class="team-names-role">
+                                <p class="team-name">Prabu</p>
+                                <p class="team-role">Software Architect</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="members">
+                        <div class="members-box">
+                            <div class="team-image-box">
+                                <img class="team-image" src="ASSERTS\profiles\per 2.avif" alt="profiles">
+                            </div>
+                            <div class="team-names-role">
+                                <p class="team-name">karthi</p>
+                                <p class="team-role">Project Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="members">
+                        <div class="members-box">
+                            <div class="team-image-box">
+                                <img class="team-image" src="ASSERTS\profiles\per 3.jpg" alt="profiles">
+                            </div>
+                            <div class="team-names-role">
+                                <p class="team-name">Daya</p>
+                                <p class="team-role">Lead Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="members">
+                        <div class="members-box">
+                            <div class="team-image-box">
+                                <img class="team-image" src="ASSERTS\profiles\per 4.webp" alt="profiles">
+                            </div>
+                            <div class="team-names-role">
+                                <p class="team-name">Hari</p>
+                                <p class="team-role">Marketing Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>@ 2025 CodeWithPrabu Dashboard. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
