@@ -12,6 +12,9 @@
     </head>
     <body>
         <header>
+            <div id="nav-extended" class="nav-extended">
+                <img src="ASSERTS\header\menu-svgrepo-com.svg" alt="nav" class="nav-extend-button">
+            </div>
             <div class="top_search">
               <input type="text" class="top_search-bar" placeholder="Search...">
               <img src="ASSERTS\header\search-svgrepo-com.svg" alt="search icon" class="search-icon">
@@ -85,11 +88,51 @@
                 </div>
             </div>
         </nav>
+        <section id="nav-extended-page" class="nav-extended-page">
+            <div class="nav-page">
+                <div class="nav-page-menu">
+                    <div class="nav-main-close">
+                        <div class="nav-main-menu">
+                            <p>MAIN MENU</p>
+                        </div>
+                        <div id="nav-close-div" class="nav-close-div">
+                            <img src="ASSERTS\nav-extended\close-x-svgrepo-com.svg" alt="#" class="nav-close">
+                        </div>
+                    </div>
+                    <div class="nav-main-menu-contents">
+                        <div class="nav-main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\home-svgrepo-com.svg" alt="icon">
+                            <p>Dashboard</p>
+                        </div>
+                        <a href="#projects"><div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\project-diagram-solid-svgrepo-com.svg" alt="icon">
+                            <p>Projects</p>
+                        </div></a>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\calender-svgrepo-com.svg" alt="icon">
+                            <p>Calendar</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\team-svgrepo-com.svg" alt="icon">
+                            <p>Team</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\side bar\chart-pie-svgrepo-com.svg" alt="icon">
+                            <p>Reports</p>
+                        </div>
+                        <div class="main-menu-content">
+                            <img class="main-menu-icon" src="ASSERTS\header\settings.png" alt="icon">
+                            <p>Settings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <main>
             <section class="quick_view">
                 <div class="quick_welcome">
-                    <div class="welcome">
-                      <h1>Welcome back, Prabu!</h1>
+                    <div id="welcome" class="welcome">
+                      <h1 id="welcome-name">Welcome back, Prabu!</h1>
                     </div>
                     <div class="welcome-2">
                       <p>You have 3 ongoing projects. 2 deadlines are approching this week.</p>
@@ -382,5 +425,6 @@
         <footer>
             <p>@ 2025 CodeWithPrabu Dashboard. All rights reserved.</p>
         </footer>
+        <script src="dashboard-js.js"></script>
     </body>
 </html>

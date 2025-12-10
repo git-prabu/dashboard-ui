@@ -632,6 +632,7 @@ footer p{
 }
 .welcome{
     font-size: 12px;
+    display: flex;
 }
 .welcome-3 button{
     background-color:rgba(211, 211, 211, 0.25);
@@ -735,7 +736,6 @@ footer p{
     margin-bottom:30px;
 }
 .main-menu-content{
-    
     padding:10px 10px 10px 20px;
     border-radius:7px;
     font-weight: 500;
@@ -779,6 +779,73 @@ footer p{
     gap:10px;
     padding-left:5px;
 }
+.nav-extended{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s;
+    display: none;
+}
+.nav-extended:hover{
+    box-shadow: 0px 0px 5px grey;
+}
+
+.nav-extended:active{
+    box-shadow:0px 0px 10px grey;
+}
+.nav-extend-button{
+    width: 20px;
+}
+.nav-extended-page{
+    background-color: rgba(128, 128, 128, 0.358);
+    display: none;    /* change to flex*/
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left:0;
+    right:0;
+    height: 837px;
+}
+.nav-page{
+    display: flex;    /* change to flex*/
+    position: fixed;
+    top: 0;
+    left:0;
+    right:220px;
+    background-color: whitesmoke;
+    height: 837px;
+    z-index: 1;
+    justify-content: center;
+}
+.nav-main-close{
+    display: flex;
+    justify-content: space-between;
+    width:230px;
+    margin-top: 23px;
+}
+.nav-main-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-close-div{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s;
+}
+.nav-close-div:hover{
+    box-shadow: 0px 0px 3px grey;
+}
+.nav-close-div:active{
+    box-shadow: 0px 0px 0px grey;
+}
+.nav-close{
+    width:20px;
+}
+
 @media screen and (max-width:1000px){
     .page-heading h1{
         display:none;
@@ -849,5 +916,13 @@ footer p{
     }
     header{
         left:0px;
+    }
+    .nav-extended{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top_search{
+        display: none;
     }
 }
