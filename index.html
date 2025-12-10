@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header id="header-theme">
             <div id="nav-extended" class="nav-extended">
                 <img src="ASSERTS\header\menu-svgrepo-com.svg" alt="nav" class="nav-extend-button">
             </div>
@@ -20,7 +20,12 @@
               <img src="ASSERTS\header\search-svgrepo-com.svg" alt="search icon" class="search-icon">
             </div>
             <div class="profile-icons">
-                <img src="ASSERTS\header\settings.png" alt="settings-icon" class="icons">
+                <div class="theme-icon">
+                    <img src="ASSERTS\header\settings.png" alt="settings-icon" class="icons" id="light-dark">
+                </div>
+                <div class="theme-icon-dark" id="theme-icon-dark">
+                    <img src="ASSERTS\header\settings.png" alt="settings-icon" class="icons" id="light-dark">
+                </div>
                 <img src="ASSERTS\header\bell.png" alt="settings-icon" class="icons">
                 <img src="ASSERTS\profiles\per 1.jpg" alt="settings-icon" class="p-icon">
             </div>
@@ -170,8 +175,8 @@
                 </div>
                     <div >
                         <div class="ongoing_projects">
-                        <h2>Ongoing Project</h2>
-                        <a href="#"><p>View All<img class="arrow" src="ASSERTS\on page\chevron.png"></p></a>
+                        <h2 id="fontTheme">Ongoing Project</h2>
+                        <a href="#" ><p id="fontTheme2">View All<img class="arrow" src="ASSERTS\on page\chevron.png"></p></a>
                     </div>
                     <div class="project-1">
                         <div class="project-1-name">

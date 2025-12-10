@@ -577,6 +577,14 @@ footer p{
     display:flex;
     height:30px;
 }
+.theme-icon{
+    display:flex;
+    height:30px;
+}
+.theme-icon-dark{
+    display:none;
+    height:30px;
+}
 .icons{
     background-color: white;
     padding:8px;
